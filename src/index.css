@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  background-color: #090a0c;
+  color: #e2e8f0;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.glass-card {
+  background: rgba(20, 22, 27, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+.treasury-gradient {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(9, 10, 12, 0) 100%);
+}
+
+.phase-active {
+  background: #38bdf8;
+  color: #090a0c;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.55);
+}
+
+.data-font {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.border-v {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Customized dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0c;
+}
+::-webkit-scrollbar-thumb {
+  background: #23262d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}

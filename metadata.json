@@ -1,0 +1,6 @@
+{
+  "name": "Banco Central Arkaios",
+  "description": "Banco Central Autónomo de Arkaios para el ecosistema MAIN-AMR: gestión de tesorería, análisis de mercados con IA, simulación de políticas monetarias y gobernanza descentralizada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
